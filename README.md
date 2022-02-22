@@ -1,2 +1,1 @@
-# stat_programming
-Keep track of statistical programming classes sem 2 using R 
+file.rename(from='Untitled1', to='README.md')
