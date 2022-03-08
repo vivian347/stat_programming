@@ -22,3 +22,24 @@ FD = D(expression(3*x*cos(x*y)),"x")
 SD = D(FD, "x")
 SD
 FD
+ #INTEGRATION
+#if limits are not given
+fun <- antiD(x^2-x)
+
+
+#when limits are given
+intgral<- function(x){
+  x^2
+}
+integrate(intgral,-1,2)
+
+
+intgral<-function(x){
+  x^(1.5)
+}
+integrate(intgral, 2,5)
+
+intgral <- function(x){
+  sin(x^(2))
+}
+integrate(intgral, 0 ,10)
