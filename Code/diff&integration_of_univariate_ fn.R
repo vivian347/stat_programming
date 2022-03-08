@@ -9,3 +9,16 @@ D(f,"x")
  
 #y = e^(-x^2)
 y<- expression(exp(-(x^-2)))
+D(y,"x")
+
+#cos(2*t)
+y = expression(cos(2*x))
+D(y, "x")
+
+#find second derivative y = 3xcos(xy)
+#FD
+FD = D(expression(3*x*cos(x*y)),"x")
+#sd
+SD = D(FD, "x")
+SD
+FD
